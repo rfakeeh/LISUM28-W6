@@ -1,0 +1,20 @@
+inbound:
+    folder: data/input/
+    filename: bikes-1
+    filetype: csv
+    header: True
+    delimiter: ','
+    skip_rows: 0
+outbound:
+    folder: data/output/
+    filename: bikes-1
+    filetype: gzip
+    header: True
+    delimiter: '|'
+columns:
+    - bike_id: int
+    - start_time: timestamp
+    - end_time: timestamp   
+    - start_station_name: string
+    - end_station_name: string
+column_name_splitter: '_'
