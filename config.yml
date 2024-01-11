@@ -1,13 +1,13 @@
 inbound:
     folder: data/input/
-    filename: bikes-1
+    filename: bikes-2
     filetype: csv
     header: True
     delimiter: ','
     skip_rows: 0
 outbound:
     folder: data/output/
-    filename: bikes-1
+    filename: bikes-2
     filetype: gzip
     header: True
     delimiter: '|'
